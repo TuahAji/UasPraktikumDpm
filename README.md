@@ -1,7 +1,7 @@
 # Uas Praktikum Dpm Snack Expo
 
 FrontEnd :
- https://snack.expo.dev/@fransdyto88/fransdytoependri_213510362_5d_uas
+ https://snack.expo.dev/@tuahajisaka/tuahajisaka_213510412pertemuan7
 
  BackEnd :
  https://github.com/Dytod/UasPrakDpm.git
