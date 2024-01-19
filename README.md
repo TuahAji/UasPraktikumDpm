@@ -1,5 +1,5 @@
-# Snack Expo (MERN)
+# Snack Expo
 
 FrontEnd :
-https://snack.expo.dev/@alriawi/6?platform=web
+ https://snack.expo.dev/@fiqur/amusfiqurrahmanalfikrihn_213510394_tugas6
  
