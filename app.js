@@ -10,7 +10,7 @@ app.use(cors());
 
 app.use(express.json());
 
-const mongoUrl = "mongodb+srv://eliteisan:admin@dpm2023.arvk2ot.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl = "mongodb+srv://franxx:dytod@cluster0.conmone.mongodb.net/?retryWrites=true&w=majority";
 
 const JWT_SECRET = "hvdvay6ert72839289()aiyg8t87qt72393293883uhefiuh78ttq3ifi78272jdsds039[]]pou89ywe";
 
@@ -130,7 +130,7 @@ app.post("/createschedule", async (req, res) => {
                   jam,
                   ruangan,
             });
-
+            
             res.send({ status: 'ok', data: newSchedule });
       } catch (error) {
             res.send({ status: 'error', data: error.message });
@@ -138,7 +138,7 @@ app.post("/createschedule", async (req, res) => {
 });
 
 
-// WRITE SCHEDULES
+// READ SCHEDULES
 app.get("/getschedules", async (req, res) => {
       try {
             const schedules = await mongoose.model("Schedules").find();
